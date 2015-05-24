@@ -1,0 +1,19 @@
+##########################################################
+# Paramètres d'entrée du programme Anisotropic Viscosity #
+##########################################################
+# Général
+cubique_1_64 				# nom du répertoire de sauvegarde (à créer auparavant)
+1	               					# type de calcul (0=perso,1=cubique,2=hexagonal)
+1                   				# lpo (0=perso,1=uniforme,2=uniforme à largeur donnée)
+10000	10  10          			# n_cristaux, n_dispersions, n_delta
+# Viscosité
+1.0 1.0             				# K, mu
+-1.64                 				# delta_cub
+0.0 0.0 0.0             			# delta_1, delta_2, delta_3
+eta_perso               			# tenseur de compliance du cristal 
+# LPO
+0                   				# coefficient de dispersion
+nom_fichier_angles      			# nom du fichier avec les angles des différents cristaux
+# Contraintes
+1.0 -1.0 0.0 0.0 0.0 1.414 			# Contrainte personnalisée
+###########################################################

@@ -10,9 +10,9 @@ LIBS =
 
 CC = cc
 CFLAGS = -O
-FC = gfortran
+FC = ifort
 FFLAGS = 
-F90 = gfortran
+F90 = ifort
 F90FLAGS = 
 LDFLAGS = 
 
